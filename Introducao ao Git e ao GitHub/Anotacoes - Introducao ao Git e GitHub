@@ -1,0 +1,80 @@
+MÓDULO 1 – INTRODUÇÃO AO GIT E GITHUB
+
+O Git não tem uma interface gráfica para o usuário – a forma de utilizá-lo é por meio de comandos no
+terminal
+	- Tipo de programa: CLI
+
+Windows – terminal derivado do shell
+	- cd
+	- dir
+	- mkdir
+	- del / rmdir
+
+Unix – terminal derivado do bash
+	- cd
+	- ls
+	- mkdir
+	- rm -rf
+
+*Entender o funcionamento do Git
+	- SHA1: Secure Hash Algorithm – funções hash criptográficas projetadas pela NSA
+	(Agência de Segurança Nacional dos EUA)
+	- Encriptação gera conjunto de caracteres de 40 dígitos: isso torna o programa Git seguro e rápido
+	- Forma curta de representar um arquivo - (stdin)
+
+* Objetos internos do Git:
+	- Blobs: bloco básico de armazenação – só guarda o sha1 do arquivo
+	- Trees: armazenam as blobs → contém metadados e guarda o nome do arquivo + SHA1
+	- Commits: mais importante → objeto que vai juntar tudo. Aponta para uma árvore, aponta
+	para um parente (outro commit) e para um autor
+	- Hora e dia em que foi criado
+	- Commit também possui um SHA1
+
+*Qualquer coisa alterada em uma blob, vai alterar também o SHA1 de uma árvore em que a blob está contida
+
+- Sistema distribuído seguro: praticamente impossível alterarem um commit – versões disponíveis
+também serão seguras
+
+CHAVE SSH E TOKEN
+	- Novo tipo de autenticação do Github: 12/08/2021
+	- Ao empurrar o código para o Github, não será possível fazer isso apenas com o usuário e uma senha
+	- Chave SSH – segura e encriptada entre duas máquinas
+	- Configuração da nossa máquina no Github para ela ser considerada confiável: chave pública e uma chave particular
+	- Processo parecido entre Windows e Linux: GitBash → mesmos comandos
+
+- Criação de Token de acesso pessoal
+	- Settings → developper settings → salvar o token para clonar arquivos depois
+	- Comando: git clone + link https no terminal
+	- Com o SSH: comando git clone + link ssh no git bash
+
+Iniciando o Git e criando um commit
+
+* comandos:
+- git init
+- git add
+- git commit
+
+Passo a passo no ciclo de vida
+- Git init: cria um repositório
+
+Tracked do Git
+- Untracked
+- Unmodified
+- Modified
+- Staged: conceito chave
+
+*O que fizemos de forma prática na aula anterior
+	- git add: untracked direto para staged
+	- staged: arquivo se preparando para fazer parte de um commit
+	- Commit: retorna todos os arquivos para unmodified
+	- Tira um snapshot daquele arquivo naquele momento e deixa eles aguardando novas modificações
+
+Ambientes de desenvolvimento:
+	- Servidor: remote repository
+	- Ambiente de desenvolvimento:
+		- working directory
+		- staging area
+		- local reposity: quando você cria um commit passa a fazer parte desse repositório
+			- a partir disso pode ser conectado a um remote repository (Github)
+
+* Comando: git status → indica o status em que nossos arquivos estão
