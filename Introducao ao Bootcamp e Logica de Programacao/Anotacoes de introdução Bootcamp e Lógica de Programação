@@ -1,0 +1,126 @@
+BOOTCAMP – IMPULSO JAVASCRIPT EVOLUTION
+
+MÓDULO 0
+
+Desafios de código
+
+- Resolução de problemas
+	- Quanto mais capacidade de resolver, maior senioridade
+
+Desafios de código – entendendo na prática
+
+- Desenvolver o pensamento computacional e o raciocínio lógico
+
+* Entrada: informação importante para poder resolver o problema
+	- um valor ou um conjunto de valores
+
+Desafios de projeto
+
+- Promover a criação de projetos consistentes para montar portfólio no GitHub
+	- Ajuda a mostrar o progresso técnico na área
+
+* Live Codings: imersões práticas avançadas
+
+LIVE DE ABERTURA – CAMILA E RENAN
+Stack tecnológica
+
+- Ferramentas iniciais: git e github
+- Frontend: html, css, javascript
+- IDE: Visualcodestudio
+- Framework: react
+- Bancos de dados: Postgres (relacional) e MongDB (não relacional)
+- Backend: node.js
+
+MÓDULO 1
+
+INTRODUÇÃO À PROGRAMAÇÃO E PENSAMENTO COMPUTACIONAL
+
+
+- Introdução ao pensamento computacional para resolução de problemas:
+	- Decomposição
+	- Reconhecimento de padrões
+	- Abstração
+	- Design de algoritmos: automatização para a resolução de problemas
+
+* Processo contínuo: refinamento → teste → análise
+
+Pilares do pensamento computacional
+
+Decomposição: ordem de execução das tarefas
+	- Pode ser sequencial ou paralelo
+
+Paralelo: tarefas executadas consecutivamente
+Não basta aplicar: é preciso treinar por si mesmo
+
+* Treinar maneiras distintas de resolver o mesmo problema
+
+Exemplos de decomposição
+	- Preparar uma receita
+	- Funcionamento de uma bike
+
+*Criar um app:
+	- Finalidade
+	- Interface
+	- Funcionalidades
+	- Pré-requisitos
+
+Outro exemplo: elaborar um artigo
+	- Definir o que será abordado
+	- Estrutura
+	- Conteúdo de cada tópico
+	- Textos de conexão
+
+Sequencial ou paralelo: fazer em uma ordem ou não, fazer mais de uma coisa ao mesmo tempo
+
+Padrões
+
+Reconhecimento de padrões:
+	- Modelo base
+	- Estrutura invariante
+	- Repetição
+Detecção de similaridades e diferenças
+
+Seres vivos fazem o reconhecimento de padrões de maneira intuitiva: linguagem, por exemplo
+	- Ser humano faz isso por graus de similaridade
+	- Como o computador faz isso: por comparação
+		- Representação de atributos
+		- Aprendizado – conceito associado ao objeto
+		- Armazena os dados para consultas posteriores
+		- Estabelece regras de decisão
+
+Técnicas de lógica de programação
+
+Técnica linear
+	- Execução sequenciada → única dimensão
+	- Recursos limitados
+
+Técnica estruturada – mais de uma opção: escolha
+	- Escrita
+	- Entendimento
+	- Validação
+	- Manutenção
+
+Técnica modular: definição de partes independentes controladas por um conjunto de regras
+
+Fundamentos de algoritmos
+
+- Estruturas de repetição
+	- Laços
+	- Controle de fluxo
+	- Malhas de repetição
+	- Repetição
+	- Loop
+
+*Condição de paradas: número de repetições ou uma condição a ser satisfeita
+
+* Estruturas de repetição
+	- Enquanto...faça
+	- Repita...até
+	- Para...de...até...faça
+
+Vetores e Matrizes
+	- Vetor: variável com conteúdo pré-definido
+	- Matrizes: coleção de variáveis - tabelas
+
+* Funções: “Blocos de instruções identificados por nomes e parâmetros”
+	- Definição, nome, invocação e variável local (são destruídas depois que a função for 	executada;
